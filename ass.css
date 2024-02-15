@@ -1,0 +1,83 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'PT Sans', sans-serif;
+}
+.image{
+    background-image: url(./images/unipic.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items:center;
+}
+nav img{
+    width: 100px;
+}
+.nav-links{
+    flex: 2;
+    text-align: end;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-links ul li::after{
+ width: 0px;
+ height: 2px;
+ background: #f44336;
+ display: block;
+ margin: auto;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: large;
+}
+    
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 15px;
+    color: black;
+    font-family: serif;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.button:hover {
+    border: 1px solid burlywood;
+    background-color: burlywood;
+    transition : 1sec;
+}
+
